@@ -1,0 +1,86 @@
+.container{
+    text-align: center;
+    margin: 70px;
+}
+
+.google-image{
+    height: 100px;
+    width: 300px;
+}
+
+.google-mic{
+    position: relative;
+    height: 22px;
+    margin-top:10px;
+    width: 22px;
+    margin-right:0px;
+}
+
+.search{
+    width: 640px;
+    height: 45px;
+    margin: 0 auto;
+    border:1px solid gray;
+    border-radius: 25px;
+}
+
+.search-bar{
+    width: 500px;
+    height: 30px; 
+    font-size:18px;
+    border:none;
+    outline: none;
+}
+
+.search:hover{
+    box-shadow: 2px 2px 2px #000 ;
+}
+
+
+.search-icon{
+    position: relative;
+    height: 15px;
+    margin-top:15px;
+    width: 15px;
+    margin-right:50px; 
+}
+
+.gimages{
+    color: #4285f4;
+    position: relative;
+    left: 115px;
+    top: -25px;
+    white-space: nowrap;
+}
+
+.search-btn{
+    width: 150px;
+    height: 40px;
+    padding: 10px;
+    margin-top: 25px;
+}
+
+.search-btn:hover{
+    border: black;
+}
+
+nav {
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: rgba(215, 215, 215, 0.5);
+}
+
+nav a{
+    color:black;
+    margin: 20px;
+    text-decoration:none;
+}
+
+nav a:hover{
+    color: rgb(25, 12, 214)
+}
+
+body{
+    margin: 0px;
+    font: 16px/16px roboto-regular, arial, sans-serif;
+}
